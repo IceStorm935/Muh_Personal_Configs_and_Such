@@ -1,0 +1,3 @@
+[Added Associations]
+application/epub+zip=firefox-esr.desktop;libreoffice-writer.desktop;xarchiver.desktop;
+text/html=org.qutebrowser.qutebrowser.desktop;mousepad.desktop;
