@@ -1,0 +1,17 @@
+{
+	"config" : 
+	[
+		"/home/patriot/.steam/debian-installation/config"
+	],
+	"external_drivers" : null,
+	"jsonid" : "vrpathreg",
+	"log" : 
+	[
+		"/home/patriot/.steam/debian-installation/logs"
+	],
+	"runtime" : 
+	[
+		"/home/patriot/.steam/debian-installation/steamapps/common/SteamVR"
+	],
+	"version" : 1
+}
