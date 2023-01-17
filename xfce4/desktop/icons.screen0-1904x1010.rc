@@ -1,0 +1,27 @@
+[xfdesktop-version-4.10.3+-rcfile_format]
+4.10.3+=true
+
+[/home/patriot/Desktop/start-tor-browser.desktop]
+row=5
+col=0
+
+[/home/patriot/Desktop/com.obsproject.Studio.desktop]
+row=2
+col=0
+
+[/home/patriot/Desktop/org.qutebrowser.qutebrowser.desktop]
+row=4
+col=0
+
+[/home/patriot/Desktop/Steam.desktop]
+row=1
+col=0
+
+[/home/patriot/Desktop/Virtual Machine Manager.desktop]
+row=3
+col=0
+
+[Trash]
+row=0
+col=0
+
