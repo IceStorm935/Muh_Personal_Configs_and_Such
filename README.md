@@ -1,1 +1,1 @@
-Pretty straight forward, download the install folder, give the script execute permissions, and run the script. GG EZ. Anyone is more than welcome to take and build on my install script, or do with it as you will.
+Pretty straight forward, download the install folder, give the script execute permissions, and run the script. GG EZ. Anyone is more than welcome to take and build on my install script, or do with it as you will. Same goes for the rest of the configs.
