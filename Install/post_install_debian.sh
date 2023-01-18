@@ -37,3 +37,4 @@ sudo mount -a
 # Virt-Manager
 sudo rc-service libvirtd start
 sudo rc-update add libvirtd
+sudo usermod -aG libvirt patriot
