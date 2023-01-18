@@ -1,19 +1,22 @@
 # Remove cringe
-sudo apt remove xterm synaptic exfalso parole xfburn quodlibet
+sudo apt remove xterm synaptic exfalso parole xfburn quodlibet slim
 sudo apt autoremove
 
 # Install Software
-SOFTWARE= cat packages.txt
+dpkg --add-architecture i386
 sudo apt update && sudo apt upgrade -y
+SOFTWARE= cat ~/packages.txt
 sudo apt install -y  $SOFTWARE
 
 # qtile
 pip install qtile
 
 # multiload-ng
-git clone https://github.com/udda/multiload-ng
+git clone https://github.com/udda/multiload-ng ~/patriot/
+cd ~/multiload-ng
 ./autogen.sh
 ./configure --prefix=/usr
+cd
 
 # .configs
 mkdir ~/Documents/My\ Configs/
