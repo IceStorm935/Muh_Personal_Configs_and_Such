@@ -1,3 +1,7 @@
+# Remove cringe
+sudo apt remove xterm synaptic exfalso parole xfburn quodlibet
+sudo apt autoremove
+
 # Install Software
 SOFTWARE= cat packages.txt
 sudo apt update && sudo apt upgrade -y
