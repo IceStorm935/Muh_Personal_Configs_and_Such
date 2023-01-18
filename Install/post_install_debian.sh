@@ -33,3 +33,7 @@ sudo blkid | grep sda > UUID.txt
 echo "UUID.txt" > /etc/fstab
 sudo mkdir /mnt/sda
 sudo mount -a
+
+# Virt-Manager
+sudo rc-service libvirtd start
+sudo rc-update add libvirtd
