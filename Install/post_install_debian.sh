@@ -3,7 +3,7 @@ sudo apt remove xterm synaptic exfalso parole xfburn quodlibet slim
 sudo apt autoremove
 
 # Install Software
-dpkg --add-architecture i386
+sudo dpkg --add-architecture i386
 sudo apt update && sudo apt upgrade -y
 SOFTWARE= cat ~/Downloads/packages.txt
 sudo apt install -y  $SOFTWARE
@@ -45,7 +45,7 @@ alias hollywood='cd ~/Downloads/ && ./eDEX-UI-Linux-x86_64.AppImage'
 alias vpn='cat ~/Downloads/VPN.txt && sudo openvpn ~/Downloads/mx.protonvpn.net.udp.ovpn'
 source .bashrc
 
-# Automount SSD
+# Automount SSD Start
 sudo blkid | grep sda > UUID.txt
 sudo mkdir /mnt/sda
 
