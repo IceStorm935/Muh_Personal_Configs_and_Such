@@ -5,8 +5,8 @@ sudo apt autoremove
 # Install Software
 sudo dpkg --add-architecture i386
 sudo apt update && sudo apt upgrade -y
-SOFTWARE= cat ~/Downloads/packages.txt
-sudo apt install -y  $SOFTWARE
+Software=packages.txt
+sudo apt install -y  $Software
 
 # qtile
 pip install qtile
@@ -19,7 +19,7 @@ Comment=Qtile Session
 Exec=qtile start
 Type=Application
 Keywords=wm;tiling
-" > /usr/share/xsessions/qtile.desktop
+" >> /usr/share/xsessions/qtile.desktop
 
 # multiload-ng
 git clone https://github.com/udda/multiload-ng /home/patriot/
@@ -36,13 +36,13 @@ git clone https://github.com/IceStorm935/Muh_Private_Configs.git -C /home/patrio
 mv /home/patriot/Documents/My\ Configs/* /home/patriot/.config/
 
 # .bashrc
-alias upd='sudo apt update && sudo apt upgrade'
+echo "alias upd='sudo apt update && sudo apt upgrade'
 alias autorm='sudo apt autoremove'
 alias add='sudo apt install'
 alias del='sudo apt remove'
 alias neo='neofetch --ascii_distro debian'
 alias hollywood='cd ~/Downloads/ && ./eDEX-UI-Linux-x86_64.AppImage'
-alias vpn='cat ~/Downloads/VPN.txt && sudo openvpn ~/Downloads/mx.protonvpn.net.udp.ovpn'
+alias vpn='cat ~/Downloads/VPN.txt && sudo openvpn ~/Downloads/mx.protonvpn.net.udp.ovpn'" >> .bashrc
 source .bashrc
 
 # Automount SSD Start
